@@ -1,0 +1,1053 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Graphik, Arial, Helvetica, sans-serif;
+}
+section{
+    border: 1px solid blue;
+}
+/* header */
+nav img{
+    margin-left: 3.3em;
+}
+nav {
+    display: flex;
+    padding: 1em 0;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    padding: 2em;
+    width: 100%;
+    background-color: #fff;
+    z-index: 99999;
+    font-family: sans-serif;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+    margin-left: 10em;
+
+}
+.nav-links ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-align: center;
+    font-size: 1.1rem;
+}
+.nav-links ul li a {
+color: #585757;
+
+    text-decoration: none;
+}
+.nav-links ul li a:hover {
+    text-decoration: underline;
+}
+.btn{
+    margin-top: -2em;
+    display:flex ;
+    flex-direction:row ;
+    margin-left: 3em;
+}
+.btn a .thumb{
+    width: 5%;
+    border: 0.6em solid #E7332B;
+    border-radius: 50%;
+background-color: #fa4f3f;
+margin-left:-2em;
+position: absolute;
+}
+.sample{
+    padding-top: 1.5em;
+}
+.btn .sample a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #E7332B;
+    margin-right: 4em;
+    border: 0.1em solid transparent;
+    border-radius: 3em;
+    padding:0.5em 1.9em;
+    font-size: 1.2rem;
+}
+
+/* section-1 */
+
+.section-1{
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    column-gap:3em ;
+}
+.row{
+    width:97%;
+}
+.row-1{
+    width: 120%;
+    height:50vh;
+    margin-top: 10em;
+    margin-left: 3em;
+}
+.row-2{
+    width: 105%;
+    height: 110%;
+    margin-top: 12em;
+    margin-left: -9em;
+}
+.p1{
+    margin-top: 9em;
+    font-size: 1.2rem;
+    color: #E7332B;
+}
+.p2{
+    font-family: sans-serif;
+    font-size: 3.1em;
+    font-weight: bold;
+    margin-left: -1em;
+}
+.link{
+    margin-top: 5em;
+}
+.link a{
+text-decoration: none;
+background-color: #E7332B;
+color: #fff;
+padding: 0.5em 2em;
+font-size: 20px;
+border-radius: 20px;
+}
+.img-2{
+position: absolute;
+max-width: 54px;
+}
+
+/* donation */
+
+.donation{
+    padding-top: 2em;
+    margin-top: 0.5em 0em;
+}
+.donation hr{
+    margin: 0.2em 5em 2em;
+    color: lightgray;
+}
+.donate{
+    display: flex;
+    flex-direction: row;
+    column-gap: 7em;
+    align-items: center;
+    justify-content: center;
+    margin: 2em 5em ;
+    width: 90%;
+}
+.donor{
+    font-family: Graphik !important;
+}
+.donor-2{
+    width: 210% ;
+    align-items: center;
+    justify-content: center;
+}
+
+/* why zuri */
+.class2 {
+    height: fit-content;
+    margin-top: 10vh;
+    display : grid;
+    box-sizing : border-box;
+    grid-template-columns : repeat(3, 1fr);
+background-color : rgb(255, 244, 240);
+    justify-content : space-around;
+    height : 180vh;
+    font-family : serif;
+    color : white;
+}
+.zuri img{
+    width: 8% !important;
+    margin-left:24em !important;
+}
+.zuri-2{
+width: 60%;
+}
+.zuri-2 .training{
+    font-size: 1.5rem;
+    color:#E7332B ;
+    margin-left: 3.6em;
+}
+.zuri-2 .training-1{
+    margin-left: 2.8em;
+    font-size: 2rem;
+    font-weight: bolder;
+line-height : 42px;
+
+}
+.zuri-1{
+    display: flex;
+    flex-direction: row;
+    column-gap: 4em;
+}
+.zuri-3 img{
+    width: 65%;
+}
+.skillBox1 {
+    height : 66vh;
+    width : 90%;
+    margin : 5em 3em 0em 1.5em;
+    background-color : rgb(231, 51, 43);
+    border-radius : 3em;
+    display : flex;
+    flex-direction : column;
+    justify-content : start;
+    position : relative;
+}
+.skillBox1:hover{
+    top: -2vh;
+}
+.numberHeading {
+    font-size : 4rem;
+    margin-left : 0.7em;
+    margin-top : 0.5em;
+    font-weight : 600;
+}
+.title {
+    font-size : 2rem;
+    font-family : inherit;
+    margin-left : 1.5em;
+    width : 50%;
+    margin-top : 2em;
+    font-weight: bold;
+}
+.content {
+    font-size : 1.3rem;
+    margin-left : 2.3em;
+    width : 70%;
+    margin-top : 2.8em;
+}
+.imgWrapperBox {
+    position : absolute;
+    width : 30%;
+    right : 0;
+}
+.imgWrapperBox img {
+    width: 100%
+}
+.wires{
+background-color : rgb(231, 51, 43);
+height: 140vh;
+margin-top: 5em;
+}
+.wire img{
+    width: 6%;
+    margin-left: 22em;
+    margin-top: 1em;
+}
+.wire-4s{
+    display: flex;
+    flex-direction: row;
+}
+.wirePs{
+    width: 40%;
+    color: #fff;
+margin-left : 6em;
+}
+.wirePs .wirePs1{
+font-size: 1.2rem;
+padding-bottom: 0.5em;
+}
+.wirePs .wirePs2 {
+    font-size : 2.5rem;
+    font-weight: 700;
+    line-height: 52px;
+    padding-bottom: 1.3em;
+}
+.wirePs .wirePs3 {
+    font-size : 1.2rem;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: left;
+}
+.wirelink{
+    margin-top: 3em;
+}
+.wireLink {
+    color: #fa4f3f;
+    border: 1px solid transparent;
+    background-color: #fff;
+    padding: 0.5em 1.2em;
+    text-decoration: none;
+    border-radius: 2em;
+    font-size: 1.2rem;
+}
+.Btns{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2em;
+}
+.wireBtn img{
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+}
+.wireBtn span{
+    margin-left: 8px;
+}
+.wireBtn{
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row;   
+align-items: center;
+background-color: transparent;
+border: 2px solid #fff;
+padding: 0.5em 1em;
+border-radius: 2em;
+}
+
+.wireImg{
+    width: 60%;
+}
+.wireImg img{
+    width:90%;
+}
+
+.dot img{
+width: 10%;
+margin: 2em 0em 2em 2em;
+}
+
+/* scope of program */
+.scope{
+    height: 210vh;
+    padding-top: 4em;
+    
+}
+.heading{
+margin-left: 5em;
+}
+.heading-p{
+    color: #fa4f3f;
+    font-size: 1.5rem;
+    font-weight:500 ;
+}
+.heading-p1{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.scopeImg img{
+    width: 10%;
+    align-items: center;
+    margin-left: 37.5em;
+}
+.programs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content:center;
+    margin: 0em 5em 0em 3em;
+}
+.program{
+    background-color: #fff;
+    border: 0.1em solid transparent;
+    height: 52vh;
+    width: 80%;
+    margin-bottom: 2em;
+    border-radius: 2em;
+    line-height: 3.4vh;
+    padding: 1em 1em;
+    margin: 1em 2em 1em 4em;
+    box-shadow : 0px 10px 10px 10px rgba(246, 170, 248, 0.25);
+}
+.program h3{
+    margin-top: 2em;
+}
+.frontendIcons{
+    margin-top: 1em;
+}
+ .frontend-p{
+    margin-top: 1.5em;
+}
+.programs-btn{
+    text-align: center;
+    margin-top: 5em;
+}
+.programBtn{
+    color: #fff;
+    background-color: #fa4f3f;
+    border: 0.2em solid transparent;
+    border-radius: 2em;
+    padding: 0.5em 1.5em;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.faq{
+    height: 150vh;
+    margin-top: 2em;
+}
+.faq hr{
+    margin: 2em 5em ;
+}
+
+.faqImg img{
+    width: 10%;
+    margin-left: 13em;
+}
+.faqP{
+    text-align: center;
+}
+.faq .faqP-1{
+    font-size: 1.6rem;
+    color: #fa4f3f;
+}
+.faq .faqP-2{
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+.accordion {
+    background-color : #fff;
+    cursor : pointer;
+    padding : 1.5em;
+    width : 150%;
+    text-align : left;
+    border : none;
+    outline : none;
+    transition : 0.4s;
+    border: 1px solid rgb(136, 128, 128);
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size : 1.2rem;
+    color : #777;
+    float : right;
+    margin-left : 0.5em;
+}.active:after {
+    content : "\2796"; /* Unicode character for "minus" sign (-) */
+}
+.panel {
+    padding : 0em 1.5em;
+    background-color : white;
+    max-height : 0;
+    overflow : hidden;
+    transition : max-height 0.2s ease-out;
+    font-size: 1rem;
+    border: -2em solid transparent;
+}
+.panel p{
+    vertical-align: middle;
+    margin-top: 1.2em;
+    padding-bottom: 1.2em;
+}
+.faq-box{
+    width: 50%;
+    margin-left: 10em;
+    margin-top: 5em;
+}
+.tweet{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 4em;
+    align-items: center;
+}
+.tweet-logo{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0.5em;
+    color: #fff;
+    background-color: #E7332B;
+    border: 1px solid transparent;
+    padding: 0.2em 1em;
+    border-radius: 2em;
+    align-items: center;
+    justify-content: center;
+}
+.structured{
+    height: 210vh;
+}
+.structure{
+    padding-top: 4em;
+    display: flex;
+    flex-direction: row;
+    column-gap: 30em;
+    height: fit-content;
+}
+.structureImg img{
+    width: 30%;
+    margin-left: 15em;
+}
+.structureImg1 img{
+    width: 75%;
+    margin-top: 4em;
+}
+.structured .structureP > p{
+    text-align: center;
+}
+.PS1{
+    color: #E7332B;
+    font-size: 1.6rem;
+}
+.PS2{
+    font-size:2.5rem ;
+    font-weight: bold;
+}
+.PS3{
+    font-size: 1.2rem;
+}
+.move{
+    display: block;
+    position: absolute;
+    margin-top: 18em;
+    margin-left: 2em;
+}
+.path{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 2.7em;
+    position: relative;
+    margin-top: 4em;
+}
+.path1{
+    margin-left: em;
+    background-color: black;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4em;
+    padding: 3em 4em;
+    width: 38%;
+    height: 120vh;
+    line-height: 4vh;
+box-shadow : 0 2.2em 6em rgb(250, 209, 199);
+}
+.hour img{
+    display: flex;
+    float: right;
+    width:23%;
+    margin-top: -10em !important;
+    margin-right: -2em !important;
+}
+.hour1 img{
+    display: flex;
+    float: right;
+    width: 42%;
+    margin-top: -4em !important;
+    margin-right: -2em !important;
+}
+.circle img{
+    width: 16%;
+    display: flex;
+    float: right;
+    margin-right: 4em ;
+    margin-top: -7em;
+}
+.pro{
+    height: 100vh;
+}
+.proImg img{
+width: 10%;
+margin-left: 5em;
+}
+.board{
+    background-color: #E7332B;
+    margin-top: 2em;
+    width: 88%;
+    justify-content: center;
+    margin-left: 5em;
+    border: 1px solid transparent;
+    border-radius: 2em;
+    height: 70vh;
+}
+.proImg1 img{
+    width: 12%;
+    left: 15%;
+    position: absolute;
+}
+.proImg2 img{
+position: absolute;
+width: 11%;
+right: 6%;
+}
+.board-p, .board-p > p{
+    text-align: center;
+    color:#fff;
+
+}
+.get{
+    padding-top: 3em;
+    font-size: 1.2rem;
+}
+.tech{
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    margin:auto;
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+.boardLink a{
+   text-decoration: none;
+   color: #E7332B;
+   background-color: #fff;
+   border: 1px solid transparent;
+   border-radius: 2em; 
+   padding: 0.5em 2em;
+   font-size: 1.2rem;
+}
+.boardImgs .boardImg1{
+    left:6%;
+    position: absolute;
+}
+.boardImgs .boardImg2 img{
+width: 13%;
+position:absolute;
+right: 5.7%;
+}
+.footer{
+    height: fit-content;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding: 5em 6em 0em 6em;
+}
+.footerLogo{
+    display: flex;
+    justify-content: space-between;
+}
+.socialIcons{
+display: flex;
+row-gap: 30px;
+justify-content : space-around;
+align-items : center;
+width: 12em;
+height: fit-content;
+}
+.copyright{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+.statement a{
+text-decoration: none;
+color: #000;
+justify-content: space-between;
+margin-left: 1em;
+}
+.statement1{
+    text-align: center;
+    margin-top: 1em;
+    display: none;
+}
+.statement1 a{
+    text-decoration:none;
+    color: black;
+}
+ @media screen and (max-width:768px) {
+    html, body{
+        overflow-x: hidden;
+    }
+
+.nav-links ul li {
+    display: none;
+}
+nav img{
+    margin-top: 0.2em;
+    margin-left: 0.3em;
+    width: 100%;
+}
+.btn{
+    margin-right: -6em;
+    justify-content: center;
+}
+.btn a .thumb{
+    width: 9%;
+    margin-left: -8.25em;
+}
+.sample{
+    margin-left: 1em;
+}
+.btn .sample a{
+margin-left: -6em;
+font-size: 1.2rem;
+padding: 0.5em 1.7em;
+flex-shrink: 0;
+text-align: right;
+margin-top: -1em;
+padding-top: -0.5em;
+}
+.section-1{
+    display: flex;
+    flex-direction: column;
+}
+.row-1{
+    width: 70vw;
+    height: 95vh;
+    margin:auto;
+    padding-top: 6em;
+}
+.row-3{
+    margin-top: -12em;
+}
+.p2{
+    font-size: 2.5rem;
+    margin: 0em 1em 0em 1em;
+}
+.row-3 .img{
+    margin-left: 7.2em;
+    width: 100%;
+}
+.p3{
+text-align: center;
+}
+.link{
+    margin-top: 2.5em;
+}
+.link a{
+    padding: 0.5em 1.5em;
+}
+.img-1{
+    max-width: 80% !important;
+    margin-left: 6em;
+}
+.img-2{
+    display: none;
+}
+.row-2{
+    display: none;
+}
+.donate{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.donation hr{
+    margin: 2em 2em 2em;
+}
+.donate{
+    justify-content: center;
+    align-items: center;
+}
+.donor .dono{
+margin-left:-3.8em;
+text-align: center;
+justify-content: center;
+font-size: 1.5rem;
+padding: 0em 1em 0em 1em;
+}
+
+.dono-1{
+    font-size: 1.2rem;
+    text-align: center;
+   margin-left: -1.5em !important;
+    text-align: center;
+    width: 87% !important;
+}
+.donor-2{
+    width: 100%;
+    margin-left:-2.5em;
+}
+.zuri img{
+    margin-left:20em!important;
+    width: 15% !important;
+}
+.zuri-1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.zuri-2 .training{
+    font-size: 1.2rem;
+    margin-left: 1.3em;
+    
+}
+.zuri-2 .training-1{
+    font-size: 1.6rem;
+    text-align: left;
+    width: 160%;
+    margin-left: 1em;
+}
+.zuri-3{
+    display: none;
+}
+.class2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 6vh;
+    height: 250vh;
+    padding-top: 280vh;
+    padding-bottom: 300vh;
+}
+.skillBox1{
+    height: 80vh !important;
+    margin-left: 3.8em;
+    width: 80%;
+}
+.title{
+    font-weight: bold;
+}
+.content{
+    padding-bottom: 65px;
+}
+.wire-4s{
+    display: flex;
+    flex-direction: column;
+}
+.wires{
+    height: 275vh;
+}
+.wire{
+    margin-top: 2em;
+}
+.wire img{
+    width: 16%;
+    margin-left: 29em;
+}
+.wirePs{
+    width: 100%;
+    text-align: left;
+    margin-left: 4em;
+}
+
+.wire-4s .wirePs1{
+    padding-bottom: -2vh;
+}
+.wire-4s .wirePs2{
+    font-size: 32px;
+    line-height: 42px;
+}
+.Btns{
+    justify-content: center;
+    align-items: center;
+    margin-left: -4.7em;
+}
+.wireBtn{
+    padding: 10px 20px;
+}
+.wireImg{
+    width: 100%;
+    margin-left: 1.2em;
+    margin-top: 2vh;
+}
+
+/* scope of program */
+.scope{
+    height: 468vh !important;
+}
+.heading p{
+    margin-left : 1.5em;
+
+}
+.programs{
+    display: flex;
+    flex-direction: column;
+}
+.program{
+    margin-left: 0.5em;
+}
+.heading{
+    margin-left: 1em;
+}
+.heading-p{
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.heading-p1{
+    font-size: 24px;
+    margin-left: 1.1em !important;
+}
+.scope{
+    height: 520vh;
+}
+.scopeImg img{
+    width: 10%;
+    margin-left:20em;
+    
+}
+.program{
+    height: 60vh;
+    width: 100%;
+}
+.icon{
+  width: 9% !important;  
+}
+.programs{
+    height: vh;
+}
+.scope .hr{
+    display: none;
+}
+.faq{
+    height: 180vh;
+}
+.faqImg img{
+    width: 15%;
+    margin-left: 8em;
+}
+.faqP-1{
+    margin-top: -1em;
+    font-size: 1.2rem !important;
+}
+.faqP-2{
+    font-size: 1.5rem !important;
+}
+.faq-box{
+    justify-content: center;
+    width: 60%;
+    margin-left: 2em;
+}
+.tweet{
+    display: flex;
+    flex-direction: column;
+}
+.tweet-logo{
+    margin-top: 0.5em;
+}
+.structured{
+    height: 330vh;
+}
+.structureImg img{
+    width: 80%;
+    margin-left: 6em;
+}
+
+.structureImg1 img{
+    width: 100%;
+    margin-left: -2em;
+}
+.PS1{
+    font-size: 1.2rem;
+}
+.PS2{
+    font-size: 1.5rem;
+}
+.path{
+    display: flex;
+    flex-direction: column;
+}
+.path1{
+    width: 90%;
+    margin-left: 2em;
+    margin-bottom: 3em;
+}
+.circle img{
+    margin-right:1.5em ;
+    margin-top: -7em;
+}
+.board{
+    margin-left: 2em;
+}
+.proImg1 img{
+    margin-top: 3em;
+}
+.proImg2 img{
+width: 23%;
+}
+.boardLink{
+    margin-top: 1em;
+}
+.tech{
+    font-size: 2.5rem !important;
+}
+.boardImg1 img{
+    width: 70%;
+    margin-left: -3em;
+}
+.boardImg2 img{
+    width: 19% !important;
+}
+.footerLogo a{
+    margin-left: -4em;
+}
+.socialIcons{
+    margin-right: -5em;
+}
+.copy{
+    margin-left: -4em;
+}
+.statement{
+    margin-right: -3em;
+}
+.statement1{
+    display: none;
+}
+ } 
+
+@media screen and (max-width:600px){
+    nav a img{
+        width: 65%;
+    }
+    .btn a .thumb{
+        margin-left: -8em !important;
+    }
+    .sample a{
+        padding: 0.5em 1.2em !important;
+        margin-right: 4.5em !important;
+        margin-top: -1em;
+    }
+    .wires{
+        height:250vh ;
+    }
+    .wire img{
+        margin-left: 21em;
+    }
+    .wirePs1, .wirePs3{
+        margin-left: -2em;
+    }
+    .wirePs2{
+        margin-left: -1.2em;
+    }
+    .scopeImg img{
+        width:40%;
+        margin-left: 12em;
+    }
+    .structureImg img{
+        width: 120%;
+    }
+
+    .structureImg1 img{
+        width: 300% !important;
+        margin-left: -6em !important;
+    }
+    .copy{
+        display: none;
+    }
+    .statement{
+        display: none;
+    }
+    .statement1{
+        margin-top: -1em;
+        display: block;
+    }
+    .statement1 hr{
+        color: lightgray;
+    margin:2em 2em 0em 2em !important;
+    }
+    .scope{
+        height: 495vh !important;
+    }
+}
+@media screen and (max-width:720px) {
+    .wirePs1{
+        margin-left: -2em;
+}
+.wirePs2{
+    margin-left: -1.2em;
+}
+.wirePs3{
+    margin-top: -1em;
+    margin-left: -2em;
+}
+.wirelink{
+    margin-left: -2.3em;
+}
+}
