@@ -6,9 +6,6 @@
 body{
     font-family: Graphik, Arial, Helvetica, sans-serif;
 }
-section{
-    border: 1px solid blue;
-}
 /* header */
 nav img{
     margin-left: 3.3em;
@@ -1050,4 +1047,141 @@ width: 23%;
 .wirelink{
     margin-left: -2.3em;
 }
+}
+
+@media screen and (max-width:481px) {
+    nav img{
+        width: 100% !important;
+    }
+    .btn a .thumb{
+        width: 13% !important;
+        margin-left: -8.39em !important;
+    }
+    .row-1{
+        width: 90%;
+    }
+    .row-3 .p2{
+        font-size: 1.7rem;
+    }
+    .row-3 .img{
+        margin-left: 0.1em;
+    }
+    .img-1{
+        margin-left: 4.6em;
+    }
+    .donor{
+        width: 90%;
+        margin-left: -1em;
+    }
+    .dono{
+        font-size: 1rem !important;
+        margin-right: 3em !important;
+    }
+    .donor-2{
+        width: 60%;
+        margin-left: 1em;
+    }
+    .zuri{
+        margin-left: -7em !important;
+        width: 90%;
+    }
+    .training-1{
+        font-size: 1.2rem !important;
+    }
+    .skillBox1{
+        margin-left: 3em;
+        margin-top: 0.8em;
+    }
+    .class2{
+        margin-top: -20em;
+        height: 100vh;
+        padding-bottom: 75em;
+    }
+    .numberHeading{
+        margin-bottom: -0.7em;
+    }
+    .title{
+        margin-bottom: -0.7em;
+    }
+    .wires{
+        height: 225vh;
+    }
+    .wire img{
+        margin-left: 16em;
+    }
+    .wirePs2{
+        font-size: 2.1rem !important;
+    }
+    .Btns{
+        margin-left: -8em;
+    }
+    .heading p{
+        margin-left:0.5em;
+    }
+    .heading-p1{
+        margin-left: 0.4em !important;
+    }
+    .scopeImg{
+        margin-left: -4em;
+    }
+    .program{
+        width: 120%;
+        margin-left: -1em;
+    }
+    .faqImg img{
+        margin-left: 5em;
+        width: 18%;
+    }
+    .faqP{
+        margin-top: 1em;
+    }
+    .faq-box{
+        margin-left: 1.5em;
+    }
+    .structureImg{
+        margin-left: -3em;
+        width: 17%;
+    }
+    .structureImg1{
+        margin-top: -2em;
+        margin-left: -3em;
+    }
+    .structureImg1 img{
+        width: 350% !important;
+    }
+    .PS3{
+        font-size: 1.1rem;
+        margin: 0em 1em 0em 1em;
+    }
+    .circle img{
+        width: 40%;
+        margin-top:-7em;
+        margin-right: 0em;
+    }
+    .proImg{
+        display: none;
+    }
+    .boardImg2 img{
+        margin-top: 2.4em;
+    }
+    .footerLogo{
+        display: block;
+        margin-left: 3.5em;
+    }
+    .socialIcons{
+        margin-top: 1em;
+        margin-left: 2em;
+    }
+    .statement1{
+        margin-top: -4em;
+    }
+    .path1{
+        height: 130vh;
+    }
+    .structured{
+        height: 350vh;
+    }
+    .footer{
+        margin-top: -9em;
+    }
 }
